@@ -1,0 +1,37 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+:root {
+  --primary: #94618e;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.text-purple {
+  color: var(--primary);
+}
+
+.bg-purple {
+  background-color: var(--primary);
+  color: white;
+}
+
+.card{
+  padding: 30px;
+  margin-bottom: 20px;
+
+background:url('../images/service-bg.png');
+background-size: cover;
+border-radius: 5px;
+margin-top: 10vh;
+
+}
+@media (min-width: 1200px){
+.col-lg-2 {
+    width: 24.666667%;
+}
+
+}
